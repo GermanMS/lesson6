@@ -12,6 +12,6 @@
  double b = k2;
  double d = b2;
  double x = (d-c)/(a-b);
-//  double y = k1*((b2-b1)/(k1-k2))+b1;
- double y = (a * x) + y;
+ double y = k1*((b2-b1)/(k1-k2))+b1;
+//  double y = (a * x) + y;
   Console.WriteLine($"{x} {y}");
